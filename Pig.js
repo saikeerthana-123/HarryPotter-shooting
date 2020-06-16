@@ -16,7 +16,7 @@ class Pig extends BaseClass {
      this.Visiblity = this.Visiblity - 5;
      tint(255,this.Visiblity);
      //this.fill(red)
-     image(this.image, this.image.position.x, this.image.position.y, 50, 50);
+     image(this.image, this.body.position.x, this.body.position.y, 50, 50);
      pop();
    }
    
